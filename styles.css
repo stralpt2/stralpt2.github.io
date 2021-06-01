@@ -19,6 +19,7 @@ body{
     bottom: 50%;
     top: 50%;
     position: fixed;
+    flex-direction: column;
 }
 video{
     width: 880px;
@@ -29,4 +30,26 @@ iframe{
     width: 0;
     height: 0;
     display: none;
+}
+button{
+    background-color: hotpink;
+    color: white;
+    padding:20px;
+    border: none;
+    border-radius:10px;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+button:hover{
+    background-color:turquoise;
+}
+button:active{
+    border-radius: 20px;
+    padding:18px;
+}
+.controls{
+    padding:20px;
+    /* transform: translateY(-150px);
+    transform: translateX(-350px); */
+    transform: translate(-350px,-150px)
 }
